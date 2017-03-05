@@ -1,0 +1,35 @@
+{
+  "name": "nsmsc-API",
+  "version": "1.0.0",
+  "description": "Node async sms gateway",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "gateway",
+    "node"
+  ],
+  "author": "fauzi rahman",
+  "license": "MIT",
+  "dependencies": {
+    "MD5": "^1.3.0",
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "express-ipfilter": "^0.2.3",
+    "express-jwt": "^5.1.0",
+    "intel": "^1.1.2",
+    "jsonwebtoken": "^7.3.0",
+    "kue": "^0.11.5",
+    "moment": "^2.17.1",
+    "morgan": "^1.8.0",
+    "mysql": "^2.13.0",
+    "paperwork": "^2.1.1",
+    "path": "^0.12.7",
+    "serialport": "^4.0.7",
+    "socket.io": "^1.7.3"
+  }
+}
